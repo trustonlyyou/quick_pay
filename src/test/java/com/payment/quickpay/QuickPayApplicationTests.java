@@ -1,4 +1,4 @@
-package com.payment.quick_pay;
+package com.payment.quickpay;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
