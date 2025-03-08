@@ -38,7 +38,7 @@ public class UserService {
 
             payWalletRepository.save(payWallet);
         } catch (Exception e) {
-
+            throw new RuntimeException("Error Creating user", e);
         }
 
         return UserResponse.builder()
